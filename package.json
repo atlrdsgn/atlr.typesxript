@@ -2,7 +2,7 @@
     "name": "atlr.typesxript",
     "version": "1.0.0",
     "description": "Minimal Next.js with TypeScript.",
-    "repository": "https://github.com/basementstudio/next-typescript",
+    "repository": "https://github.com/atlrdsgn/atlr.typesxript",
     "author": "AtelierDesign",
     "private": true,
     "scripts": {
@@ -28,6 +28,7 @@
         "mousetrap": "1.6.5",
         "next": "^12.3.0",
         "next-themes": "^0.2.1",
+        "postcss": "^8.4.19",
         "react": "^18.2.0",
         "react-device-detect": "^2.2.2",
         "react-dom": "^18.2.0",
@@ -67,10 +68,6 @@
         "stylelint-config-standard-scss": "^2.0.1",
         "stylelint-prettier": "^1.2.0",
         "typescript": "^4.7.4"
-    },
-    "engines": {
-        "node": "16.x",
-        "yarn": "1.x"
     },
     "browserslist": [
         ">0.2%",

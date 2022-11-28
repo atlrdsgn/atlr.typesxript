@@ -6,7 +6,6 @@ const HomePage = () => {
   return (
     <PageLayout>
       <Meta />
-
       <Welcome />
     </PageLayout>
   );
