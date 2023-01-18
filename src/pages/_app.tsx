@@ -7,14 +7,8 @@ import { ThemeProvider } from 'next-themes';
 import * as React from 'react';
 
 import { useAppStore } from '@/context/use-app-store';
-import { basementLog, gaTrackingId, isClient, isDev, isProd } from '@/lib/constants';
+import { gaTrackingId, isDev } from '@/lib/constants';
 import { GAScripts, useAppGA } from '@/lib/ga';
-
-// TODO delete this basement log if not a basement project.
-if (isProd && isClient) {
-  // eslint-disable-next-line no-console
-  console.log(basementLog);
-}
 
 export type Page<P = Record<string, unknown>> = NextComponentType<NextPageContext, Record<string, unknown>, P> & {
   getLayout?: GetLayoutFn<P>;
