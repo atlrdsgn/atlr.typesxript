@@ -975,7 +975,7 @@ __metadata:
     stylelint-config-standard: ^23.0.0
     stylelint-config-standard-scss: ^2.0.1
     stylelint-prettier: ^1.2.0
-    typescript: ^4.7.4
+    typescript: ^4.9.4
     zustand: ^4.0.0-rc.1
   languageName: unknown
   linkType: soft
@@ -5029,7 +5029,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.7.4":
+"typescript@npm:^4.9.4":
   version: 4.9.4
   resolution: "typescript@npm:4.9.4"
   bin:
@@ -5039,7 +5039,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.9.4#~builtin<compat/typescript>":
   version: 4.9.4
   resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=f456af"
   bin:
