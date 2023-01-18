@@ -16,6 +16,8 @@ node_modules
 # production
 /build
 
+yarn.lock
+
 # misc
 */robots.txt
 */sitemap.xml
