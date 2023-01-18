@@ -4,6 +4,10 @@ import {
   grayA,
   grayDark,
   grayDarkA,
+  lime,
+  limeA,
+  limeDark,
+  limeDarkA,
   mauve,
   mauveA,
   mauveDark,
@@ -28,10 +32,12 @@ export const { styled, css, theme, createTheme, getCssText, globalCss, keyframes
     colors: {
       ...gray,
       ...grayA,
-      ...mauve,
-      ...mauveA,
+      ...lime,
+      ...limeA,
       ...slate,
       ...slateA,
+      ...mauve,
+      ...mauveA,
       ...whiteA,
       ...blackA,
 
@@ -50,20 +56,7 @@ export const { styled, css, theme, createTheme, getCssText, globalCss, keyframes
     },
     fonts: {
       untitled: '-apple-system, system-ui, sans-serif',
-      mono: 'Menlo, monospace',
-      inter: '"Inter", sans-serif',
-      switzer: '"Switzer-Variable", sans-serif',
-      aero: '"At Hauss Aero", sans-serif',
-      pragExtended: '"Pragmatica Extended", sans-serif',
-      prag: '"Pragmatica", sans-serif',
-      neueBit: '"PP Neue Bit", monospace',
-      antarcticanMono: '"Antarctican Mono", monospace',
-      rightGrotesk: '"PP Right Grotesk", sans-serif',
-      rightGroteskWide: '"PP Right Grotesk Wide", sans-serif', // weight: 470, 900
-      rightGroteskTextWide: '"PP Right Grotesk Text Wide", sans-serif',
-      telegraf: '"PP Telegraf", sans-serif',
-      neueMontreal: '"PP Neue Montreal", sans-serif',
-      ettika: '"ETTIKA GOZA"'
+      inter: '"Inter", sans-serif'
     },
     fontSizes: {
       1: '12px',
@@ -178,10 +171,12 @@ export const darkTheme = createTheme('dark-theme', {
   colors: {
     ...grayDark,
     ...grayDarkA,
-    ...mauveDark,
-    ...mauveDarkA,
+    ...limeDark,
+    ...limeDarkA,
     ...slateDark,
     ...slateDarkA,
+    ...mauveDark,
+    ...mauveDarkA,
 
     // defaults
     black: '#FFFFFF',

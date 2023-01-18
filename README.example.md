@@ -1,13 +1,15 @@
-# `your-project`
+## `TYPESXRIPT®`
 
-Repository for `your-project`'s website.
+##### starter code by `atlr® design`
 
-## Featured Aspects of the Stack
+<hr />
+
+### Featured Aspects of the Stack
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [Next.js](https://nextjs.org/)
 
-## Get Started
+## Getting started
 
 1. Install yarn:
 

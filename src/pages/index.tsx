@@ -1,14 +1,13 @@
-import { Meta } from '@/components/common/meta';
-import { Welcome } from '@/components/common/welcome';
-import { PageLayout } from '@/components/layout/page';
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
-const HomePage = () => {
-  return (
-    <PageLayout>
-      <Meta />
-      <Welcome />
-    </PageLayout>
-  );
+const Index = () => {
+  const router = useRouter();
+  useEffect(() => {
+    router.replace('/intro');
+  });
+
+  return;
 };
 
-export default HomePage;
+export default Index;

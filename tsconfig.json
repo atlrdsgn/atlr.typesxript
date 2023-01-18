@@ -21,9 +21,10 @@
     "importsNotUsedAsValues": "error",
     "baseUrl": ".",
     "paths": {
-      "@/public/*": ["../public/*"],
-      "@/*": ["./src/*"],
+      "~/public/*": ["../public/*"],
+      "~/*": ["./src/*"],
 
+      "@/*": ["./src/*"],
       "@/components/*": ["./src/components/*"],
       "@/lib/*": ["./src/lib/*"],
       "@/hooks/*": ["./src/hooks/*"],

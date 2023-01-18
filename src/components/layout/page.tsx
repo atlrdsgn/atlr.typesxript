@@ -11,11 +11,7 @@ type Props = {
 export const PageLayout = ({ children }: Props) => {
   return (
     <>
-      {/* TODO Header */}
-      {/* <Header /> */}
       <main>{children}</main>
-      {/* TODO Footer */}
-      {/* <Footer /> */}
     </>
   );
 };

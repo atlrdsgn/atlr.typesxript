@@ -1,5 +1,4 @@
-const withBundleAnalyzer = require('@next/bundle-analyzer')
-const withTM = require('next-transpile-modules')
+const withBundleAnalyzer = require('@next/bundle-analyzer');
 
 /**
  * @type {import('next').NextConfig}
@@ -10,13 +9,11 @@ const config = {
     images: {
         formats: ['image/avif', 'image/webp']
     },
+    transpilePackages: [],
     experimental: {}
-}
+};
 
 module.exports = (_phase, { defaultConfig: _ }) => {
-    const plugins = [
-        withBundleAnalyzer({ enabled: process.env.ANALYZE === 'true' }),
-        withTM([]) // add modules you want to transpile here
-    ]
-    return plugins.reduce((acc, plugin) => plugin(acc), {...config })
-}
+    const plugins = [withBundleAnalyzer({ enabled: process.env.ANALYZE === 'true' })];
+    return plugins.reduce((acc, plugin) => plugin(acc), {...config });
+};
