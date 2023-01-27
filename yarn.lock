@@ -60,20 +60,20 @@ __metadata:
   linkType: hard
 
 "@babel/parser@npm:^7.20.7":
-  version: 7.20.7
-  resolution: "@babel/parser@npm:7.20.7"
+  version: 7.20.13
+  resolution: "@babel/parser@npm:7.20.13"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: 25b5266e3bd4be837092685f6b7ef886f1308ff72659a24342eb646ae5014f61ed1771ce8fc20636c890fcae19304fc72c069564ca6075207b7fbf3f75367275
+  checksum: 7eb2e3d9d9ad5e24b087c88d137f5701d94f049e28b9dce9f3f5c6d4d9b06a0d7c43b9106f1c02df8a204226200e0517de4bc81a339768a4ebd4c59107ea93a4
   languageName: node
   linkType: hard
 
 "@babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.20.7":
-  version: 7.20.7
-  resolution: "@babel/runtime@npm:7.20.7"
+  version: 7.20.13
+  resolution: "@babel/runtime@npm:7.20.13"
   dependencies:
     regenerator-runtime: ^0.13.11
-  checksum: 4629ce5c46f06cca9cfb9b7fc00d48003335a809888e2b91ec2069a2dcfbfef738480cff32ba81e0b7c290f8918e5c22ddcf2b710001464ee84ba62c7e32a3a3
+  checksum: 09b7a97a05c80540db6c9e4ddf8c5d2ebb06cae5caf3a87e33c33f27f8c4d49d9c67a2d72f1570e796045288fad569f98a26ceba0c4f5fad2af84b6ad855c4fb
   languageName: node
   linkType: hard
 
@@ -107,12 +107,12 @@ __metadata:
   linkType: hard
 
 "@csstools/selector-specificity@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "@csstools/selector-specificity@npm:2.0.2"
+  version: 2.1.0
+  resolution: "@csstools/selector-specificity@npm:2.1.0"
   peerDependencies:
-    postcss: ^8.2
+    postcss: ^8.4
     postcss-selector-parser: ^6.0.10
-  checksum: a2045a27276a6cfe645b6e212afc217d9a43174ea7a1fa1ab8918d5a0ace72380fbd9837fe1920c547985c11a9070dc48c5c80d483d3f581ddf7aa688204d44f
+  checksum: 6e26fa589411e0bb896b6643f42afbba91d60603cbe4f004473dc265efdf2db38bd32f877e1c7c3cbb4a2e1d7e6ee50749ed6dcfc6520702bb4171c54474379c
   languageName: node
   linkType: hard
 
@@ -209,10 +209,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:13.1.2":
-  version: 13.1.2
-  resolution: "@next/env@npm:13.1.2"
-  checksum: 0b25af4a1c31b4d798fea57df05ba45c5e35b13d87a7c612532e5f25e4b800d1d61854b7f95b8064587ee5a5b43f3d33da5d914ec70c132b6ee82925d44cf18c
+"@next/env@npm:13.1.5":
+  version: 13.1.5
+  resolution: "@next/env@npm:13.1.5"
+  checksum: 17c1d26a54d98542f5c1d901842e89fef398f67d6814a321d9fe16725308d99d6126608696587b88dbf00e059614fca171b5ea7666efc789becab091288736ae
   languageName: node
   linkType: hard
 
@@ -225,93 +225,93 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/swc-android-arm-eabi@npm:13.1.2":
-  version: 13.1.2
-  resolution: "@next/swc-android-arm-eabi@npm:13.1.2"
+"@next/swc-android-arm-eabi@npm:13.1.5":
+  version: 13.1.5
+  resolution: "@next/swc-android-arm-eabi@npm:13.1.5"
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
 
-"@next/swc-android-arm64@npm:13.1.2":
-  version: 13.1.2
-  resolution: "@next/swc-android-arm64@npm:13.1.2"
+"@next/swc-android-arm64@npm:13.1.5":
+  version: 13.1.5
+  resolution: "@next/swc-android-arm64@npm:13.1.5"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:13.1.2":
-  version: 13.1.2
-  resolution: "@next/swc-darwin-arm64@npm:13.1.2"
+"@next/swc-darwin-arm64@npm:13.1.5":
+  version: 13.1.5
+  resolution: "@next/swc-darwin-arm64@npm:13.1.5"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:13.1.2":
-  version: 13.1.2
-  resolution: "@next/swc-darwin-x64@npm:13.1.2"
+"@next/swc-darwin-x64@npm:13.1.5":
+  version: 13.1.5
+  resolution: "@next/swc-darwin-x64@npm:13.1.5"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-freebsd-x64@npm:13.1.2":
-  version: 13.1.2
-  resolution: "@next/swc-freebsd-x64@npm:13.1.2"
+"@next/swc-freebsd-x64@npm:13.1.5":
+  version: 13.1.5
+  resolution: "@next/swc-freebsd-x64@npm:13.1.5"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm-gnueabihf@npm:13.1.2":
-  version: 13.1.2
-  resolution: "@next/swc-linux-arm-gnueabihf@npm:13.1.2"
+"@next/swc-linux-arm-gnueabihf@npm:13.1.5":
+  version: 13.1.5
+  resolution: "@next/swc-linux-arm-gnueabihf@npm:13.1.5"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:13.1.2":
-  version: 13.1.2
-  resolution: "@next/swc-linux-arm64-gnu@npm:13.1.2"
+"@next/swc-linux-arm64-gnu@npm:13.1.5":
+  version: 13.1.5
+  resolution: "@next/swc-linux-arm64-gnu@npm:13.1.5"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:13.1.2":
-  version: 13.1.2
-  resolution: "@next/swc-linux-arm64-musl@npm:13.1.2"
+"@next/swc-linux-arm64-musl@npm:13.1.5":
+  version: 13.1.5
+  resolution: "@next/swc-linux-arm64-musl@npm:13.1.5"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:13.1.2":
-  version: 13.1.2
-  resolution: "@next/swc-linux-x64-gnu@npm:13.1.2"
+"@next/swc-linux-x64-gnu@npm:13.1.5":
+  version: 13.1.5
+  resolution: "@next/swc-linux-x64-gnu@npm:13.1.5"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:13.1.2":
-  version: 13.1.2
-  resolution: "@next/swc-linux-x64-musl@npm:13.1.2"
+"@next/swc-linux-x64-musl@npm:13.1.5":
+  version: 13.1.5
+  resolution: "@next/swc-linux-x64-musl@npm:13.1.5"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:13.1.2":
-  version: 13.1.2
-  resolution: "@next/swc-win32-arm64-msvc@npm:13.1.2"
+"@next/swc-win32-arm64-msvc@npm:13.1.5":
+  version: 13.1.5
+  resolution: "@next/swc-win32-arm64-msvc@npm:13.1.5"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-ia32-msvc@npm:13.1.2":
-  version: 13.1.2
-  resolution: "@next/swc-win32-ia32-msvc@npm:13.1.2"
+"@next/swc-win32-ia32-msvc@npm:13.1.5":
+  version: 13.1.5
+  resolution: "@next/swc-win32-ia32-msvc@npm:13.1.5"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:13.1.2":
-  version: 13.1.2
-  resolution: "@next/swc-win32-x64-msvc@npm:13.1.2"
+"@next/swc-win32-x64-msvc@npm:13.1.5":
+  version: 13.1.5
+  resolution: "@next/swc-win32-x64-msvc@npm:13.1.5"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -700,11 +700,11 @@ __metadata:
   linkType: hard
 
 "acorn@npm:^8.0.4":
-  version: 8.8.1
-  resolution: "acorn@npm:8.8.1"
+  version: 8.8.2
+  resolution: "acorn@npm:8.8.2"
   bin:
     acorn: bin/acorn
-  checksum: 4079b67283b94935157698831967642f24a075c52ce3feaaaafe095776dfbe15d86a1b33b1e53860fc0d062ed6c83f4284a5c87c85b9ad51853a01173da6097f
+  checksum: f790b99a1bf63ef160c967e23c46feea7787e531292bb827126334612c234ed489a0dc2c7ba33156416f0ffa8d25bf2b0fdb7f35c2ba60eb3e960572bece4001
   languageName: node
   linkType: hard
 
@@ -968,7 +968,7 @@ __metadata:
     react: ^18.2.0
     react-device-detect: ^2.2.2
     react-dom: ^18.2.0
-    react-merge-refs: 1.1.0
+    react-merge-refs: ^2.0.1
     sass: ^1.57.1
     stylelint: ^14.16.1
     stylelint-config-prettier: ^9.0.3
@@ -976,7 +976,7 @@ __metadata:
     stylelint-config-standard-scss: ^2.0.1
     stylelint-prettier: ^1.2.0
     typescript: ^4.9.4
-    zustand: ^4.0.0-rc.1
+    zustand: ^4.3.2
   languageName: unknown
   linkType: soft
 
@@ -988,9 +988,9 @@ __metadata:
   linkType: hard
 
 "axe-core@npm:^4.6.2":
-  version: 4.6.2
-  resolution: "axe-core@npm:4.6.2"
-  checksum: 81523eeaf101a3a129545a936d448d235ecf1f8c0daccdee224d29f63bec716fa38cf1a65c8462548b1f995624277eed790d9d9977ae40ba692c4cadf1196403
+  version: 4.6.3
+  resolution: "axe-core@npm:4.6.3"
+  checksum: d0c46be92b9707c48b88a53cd5f471b155a2bfc8bf6beffb514ecd14e30b4863e340b5fc4f496d82a3c562048088c1f3ff5b93b9b3b026cb9c3bfacfd535da10
   languageName: node
   linkType: hard
 
@@ -1131,9 +1131,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001406":
-  version: 1.0.30001445
-  resolution: "caniuse-lite@npm:1.0.30001445"
-  checksum: f98ca67829c3c52af5af0a62b8510432b2ad9594437d24ad460a6eb1a23d93e7a31631b1f550fbbe482ad05c467aa00da710a41699eb13d1f246d7db4147ab79
+  version: 1.0.30001449
+  resolution: "caniuse-lite@npm:1.0.30001449"
+  checksum: f1b395f0a5495c1931c53f58441e0db79b8b0f8ef72bb6d241d13c49b05827630efe6793d540610e0a014d8fdda330dd42f981c82951bd4bdcf635480e1a0102
   languageName: node
   linkType: hard
 
@@ -2210,13 +2210,13 @@ __metadata:
   linkType: hard
 
 "get-intrinsic@npm:^1.0.2, get-intrinsic@npm:^1.1.1, get-intrinsic@npm:^1.1.3":
-  version: 1.1.3
-  resolution: "get-intrinsic@npm:1.1.3"
+  version: 1.2.0
+  resolution: "get-intrinsic@npm:1.2.0"
   dependencies:
     function-bind: ^1.1.1
     has: ^1.0.3
     has-symbols: ^1.0.3
-  checksum: 152d79e87251d536cf880ba75cfc3d6c6c50e12b3a64e1ea960e73a3752b47c69f46034456eae1b0894359ce3bc64c55c186f2811f8a788b75b638b06fab228a
+  checksum: 78fc0487b783f5c58cf2dccafc3ae656ee8d2d8062a8831ce4a95e7057af4587a1d4882246c033aca0a7b4965276f4802b45cc300338d1b77a73d3e3e3f4877d
   languageName: node
   linkType: hard
 
@@ -2485,9 +2485,9 @@ __metadata:
   linkType: hard
 
 "http-cache-semantics@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "http-cache-semantics@npm:4.1.0"
-  checksum: 974de94a81c5474be07f269f9fd8383e92ebb5a448208223bfb39e172a9dbc26feff250192ecc23b9593b3f92098e010406b0f24bd4d588d631f80214648ed42
+  version: 4.1.1
+  resolution: "http-cache-semantics@npm:4.1.1"
+  checksum: 83ac0bc60b17a3a36f9953e7be55e5c8f41acc61b22583060e8dedc9dd5e3607c823a88d0926f9150e571f90946835c7fe150732801010845c72cd8bbff1a236
   languageName: node
   linkType: hard
 
@@ -3471,23 +3471,23 @@ __metadata:
   linkType: hard
 
 "next@npm:^13.1.2":
-  version: 13.1.2
-  resolution: "next@npm:13.1.2"
+  version: 13.1.5
+  resolution: "next@npm:13.1.5"
   dependencies:
-    "@next/env": 13.1.2
-    "@next/swc-android-arm-eabi": 13.1.2
-    "@next/swc-android-arm64": 13.1.2
-    "@next/swc-darwin-arm64": 13.1.2
-    "@next/swc-darwin-x64": 13.1.2
-    "@next/swc-freebsd-x64": 13.1.2
-    "@next/swc-linux-arm-gnueabihf": 13.1.2
-    "@next/swc-linux-arm64-gnu": 13.1.2
-    "@next/swc-linux-arm64-musl": 13.1.2
-    "@next/swc-linux-x64-gnu": 13.1.2
-    "@next/swc-linux-x64-musl": 13.1.2
-    "@next/swc-win32-arm64-msvc": 13.1.2
-    "@next/swc-win32-ia32-msvc": 13.1.2
-    "@next/swc-win32-x64-msvc": 13.1.2
+    "@next/env": 13.1.5
+    "@next/swc-android-arm-eabi": 13.1.5
+    "@next/swc-android-arm64": 13.1.5
+    "@next/swc-darwin-arm64": 13.1.5
+    "@next/swc-darwin-x64": 13.1.5
+    "@next/swc-freebsd-x64": 13.1.5
+    "@next/swc-linux-arm-gnueabihf": 13.1.5
+    "@next/swc-linux-arm64-gnu": 13.1.5
+    "@next/swc-linux-arm64-musl": 13.1.5
+    "@next/swc-linux-x64-gnu": 13.1.5
+    "@next/swc-linux-x64-musl": 13.1.5
+    "@next/swc-win32-arm64-msvc": 13.1.5
+    "@next/swc-win32-ia32-msvc": 13.1.5
+    "@next/swc-win32-x64-msvc": 13.1.5
     "@swc/helpers": 0.4.14
     caniuse-lite: ^1.0.30001406
     postcss: 8.4.14
@@ -3534,7 +3534,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: bc9aedfc70b979bb33a2190adca3719f8b0012d345a1bc44a6efac320ff599de1e39ade7ba7bae8e5f0d57ebcffb8c4ecc8b7da55565be6a59574896568f0685
+  checksum: 7c5eb1bc9a68cd4d77a02a560883f735b82b6be7c6aadf185d4bd683725f95d132146da899a5fd4455b3a062cc9c30927259b8d997324867bd8964c9e4c753c1
   languageName: node
   linkType: hard
 
@@ -4009,9 +4009,9 @@ __metadata:
   linkType: hard
 
 "punycode@npm:^2.1.0":
-  version: 2.2.0
-  resolution: "punycode@npm:2.2.0"
-  checksum: 32f291c1b1e8bef8a7d351a369579565bc17530ee5224d2f2b5c37b2647aa0ec7f1972294e2de1b632812f90c8080a7c0c5645c14758aadc0f27b35dd4906d89
+  version: 2.3.0
+  resolution: "punycode@npm:2.3.0"
+  checksum: 39f760e09a2a3bbfe8f5287cf733ecdad69d6af2fe6f97ca95f24b8921858b91e9ea3c9eeec6e08cede96181b3bb33f95c6ffd8c77e63986508aa2e8159fa200
   languageName: node
   linkType: hard
 
@@ -4060,10 +4060,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-merge-refs@npm:1.1.0":
-  version: 1.1.0
-  resolution: "react-merge-refs@npm:1.1.0"
-  checksum: 90884352999002d868ab9f1bcfe3222fb0f2178ed629f1da7e98e5a9b02a2c96b4aa72800db92aabd69d2483211b4be57a2088e89a11a0b660e7ada744d4ddf7
+"react-merge-refs@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "react-merge-refs@npm:2.0.1"
+  checksum: c0b6fdb384a92e9b2bb7d56128244a2db97b9343c0dcae70f172352c3732312266c078495902707e45f523625afcba78996a22edea3a8e7b2b17fe97347059fe
   languageName: node
   linkType: hard
 
@@ -4957,9 +4957,9 @@ __metadata:
   linkType: hard
 
 "tslib@npm:^2.1.0, tslib@npm:^2.4.0":
-  version: 2.4.1
-  resolution: "tslib@npm:2.4.1"
-  checksum: 19480d6e0313292bd6505d4efe096a6b31c70e21cf08b5febf4da62e95c265c8f571f7b36fcc3d1a17e068032f59c269fab3459d6cd3ed6949eafecf64315fca
+  version: 2.5.0
+  resolution: "tslib@npm:2.5.0"
+  checksum: ae3ed5f9ce29932d049908ebfdf21b3a003a85653a9a140d614da6b767a93ef94f460e52c3d787f0e4f383546981713f165037dc2274df212ea9f8a4541004e1
   languageName: node
   linkType: hard
 
@@ -5041,7 +5041,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.9.4#~builtin<compat/typescript>":
   version: 4.9.4
-  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=a1c5e5"
+  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=f456af"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
@@ -5299,7 +5299,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zustand@npm:^4.0.0-rc.1":
+"zustand@npm:^4.3.2":
   version: 4.3.2
   resolution: "zustand@npm:4.3.2"
   dependencies:
