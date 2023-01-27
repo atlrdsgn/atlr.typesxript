@@ -34,7 +34,7 @@
     "devDependencies": {
         "@next/bundle-analyzer": "^13.1.5",
         "@next/eslint-plugin-next": "^12.2.5",
-        "@types/css-font-loading-module": "0.0.7",
+        "@types/css-font-loading-module": "0.0.8",
         "@types/mousetrap": "^1.6.11",
         "@types/node": "18.11.18",
         "@types/react": "^18.0.17",

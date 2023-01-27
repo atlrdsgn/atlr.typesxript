@@ -491,10 +491,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/css-font-loading-module@npm:0.0.7":
-  version: 0.0.7
-  resolution: "@types/css-font-loading-module@npm:0.0.7"
-  checksum: a074d3b824b2232160f2353daf1cc62937e4a24154d13607f14f93feaaac6abcf069c8ae02c1396840950fa02c1b3f19ce0f119321f9735905bfb3cd4b9b2021
+"@types/css-font-loading-module@npm:0.0.8":
+  version: 0.0.8
+  resolution: "@types/css-font-loading-module@npm:0.0.8"
+  checksum: c8aadc2547fc61c76eea8f5ed38b2a77bbb8a7d585471eabc483ed00d00abaaf31974dc2db4f6f6744b00e07e22f4c46b3dca44a78d8f60325255fb61dad441c
   languageName: node
   linkType: hard
 
@@ -952,7 +952,7 @@ __metadata:
     "@radix-ui/react-slot": ^1.0.0
     "@radix-ui/react-visually-hidden": ^1.0.0
     "@stitches/react": ^1.2.8
-    "@types/css-font-loading-module": 0.0.7
+    "@types/css-font-loading-module": 0.0.8
     "@types/mousetrap": ^1.6.11
     "@types/node": 18.11.18
     "@types/react": ^18.0.17
