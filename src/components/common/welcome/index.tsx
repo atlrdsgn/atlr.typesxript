@@ -1,6 +1,6 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
-import s from './welcome.module.css';
+import s from './welcome.module.css'
 
 export const Welcome = () => {
   return (
@@ -43,12 +43,11 @@ export const Welcome = () => {
           <a
             target="_blank"
             href="https://basementstudio.notion.site/09383099eb9d415b952af95d5e6a82cc?v=a5d4e739a25a4c3193d7f16e87bdf94e"
-            rel="noreferrer"
-          >
+            rel="noreferrer">
             Check it out!
           </a>
         </p>
       </div>
     </div>
-  );
-};
+  )
+}

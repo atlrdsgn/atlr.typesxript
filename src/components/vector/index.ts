@@ -1,1 +1,1 @@
-export type { LxgoProps } from './types';
+export type {LxgoProps} from './types'

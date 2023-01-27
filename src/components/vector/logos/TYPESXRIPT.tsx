@@ -1,6 +1,6 @@
-import type { LxgoProps } from '../types';
+import type {LxgoProps} from '../types'
 
-export const Typesxript = ({ ...props }: LxgoProps) => {
+export const Typesxript = ({...props}: LxgoProps) => {
   return (
     <>
       <svg
@@ -9,8 +9,7 @@ export const Typesxript = ({ ...props }: LxgoProps) => {
         xmlns="http://www.w3.org/2000/svg"
         width="150"
         height="40"
-        {...props}
-      >
+        {...props}>
         <path d="M37.4,9.8V17H25.3v33.4h-8.5V17H4.5V9.8H37.4z" />
         <path d="M75.1,9.8L61.5,35.1v15.2H53V35.1L39,9.8h10l8.4,17.7l8.1-17.7H75.1z" />
         <path
@@ -54,5 +53,5 @@ export const Typesxript = ({ ...props }: LxgoProps) => {
         />
       </svg>
     </>
-  );
-};
+  )
+}

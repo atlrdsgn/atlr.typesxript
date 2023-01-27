@@ -16,16 +16,16 @@ import {
   slateA,
   slateDark,
   slateDarkA,
-  whiteA
-} from '@radix-ui/colors';
-import type * as Stitches from '@stitches/react';
-import { createStitches, defaultThemeMap } from '@stitches/react';
+  whiteA,
+} from '@radix-ui/colors'
+import type * as Stitches from '@stitches/react'
+import {createStitches, defaultThemeMap} from '@stitches/react'
 
-export type { VariantProps } from '@stitches/react';
+export type {VariantProps} from '@stitches/react'
 
-export const { styled, css, theme, createTheme, getCssText, globalCss, keyframes, config, reset } = createStitches({
+export const {styled, css, theme, createTheme, getCssText, globalCss, keyframes, config, reset} = createStitches({
   themeMap: {
-    ...defaultThemeMap
+    ...defaultThemeMap,
   },
   prefix: 'atelier', // *put your preferred css prefix here.* //
   theme: {
@@ -52,7 +52,7 @@ export const { styled, css, theme, createTheme, getCssText, globalCss, keyframes
 
       black: '#000000',
       clear: 'transparent',
-      white: '#ffffff'
+      white: '#ffffff',
     },
     fonts: {
       untitled: '-apple-system, system-ui, sans-serif',
@@ -69,7 +69,7 @@ export const { styled, css, theme, createTheme, getCssText, globalCss, keyframes
       rightGroteskTextWide: '"PP Right Grotesk Text Wide", sans-serif',
       telegraf: '"PP Telegraf", sans-serif',
       neueMontreal: '"PP Neue Montreal", sans-serif',
-      ettika: '"ETTIKA GOZA"'
+      ettika: '"ETTIKA GOZA"',
     },
     fontSizes: {
       1: '12px',
@@ -85,7 +85,7 @@ export const { styled, css, theme, createTheme, getCssText, globalCss, keyframes
       11: '64px',
       12: '88px',
       13: '114px',
-      14: '120px'
+      14: '120px',
     },
     lineHeights: {
       1: '12px',
@@ -100,7 +100,7 @@ export const { styled, css, theme, createTheme, getCssText, globalCss, keyframes
       10: '48px',
       12: '88px',
       13: '114px',
-      14: '120px'
+      14: '120px',
     },
     space: {
       1: '4px',
@@ -110,7 +110,7 @@ export const { styled, css, theme, createTheme, getCssText, globalCss, keyframes
       5: '64px',
       6: '128px',
       7: '256px',
-      8: '512px'
+      8: '512px',
     },
     sizes: {
       1: '4px',
@@ -120,7 +120,7 @@ export const { styled, css, theme, createTheme, getCssText, globalCss, keyframes
       5: '64px',
       6: '128px',
       7: '256px',
-      8: '512px'
+      8: '512px',
     },
     radii: {
       1: '2px',
@@ -129,8 +129,8 @@ export const { styled, css, theme, createTheme, getCssText, globalCss, keyframes
       4: '10px',
       5: '12px',
       6: '14px',
-      round: '9999px'
-    }
+      round: '9999px',
+    },
   },
   media: {
     // breakpoints...
@@ -150,7 +150,7 @@ export const { styled, css, theme, createTheme, getCssText, globalCss, keyframes
     motion: '(prefers-reduced-motion)',
     hover: '(any-hover: hover)',
     dark: '(prefers-color-scheme: dark)',
-    light: '(prefers-color-scheme: light)'
+    light: '(prefers-color-scheme: light)',
 
     /* alternate usage of bp's
      * bp1: `(min-width: 520px)`,
@@ -161,24 +161,24 @@ export const { styled, css, theme, createTheme, getCssText, globalCss, keyframes
   },
   utils: {
     linearGradient: () => (value: Stitches.PropertyValue<'padding'>) => ({
-      backgroundImage: `linear-gradient(${value})`
+      backgroundImage: `linear-gradient(${value})`,
     }),
     p: (value: Stitches.PropertyValue<'padding'>) => ({
       // example p: 0, == padding: 0;
-      padding: value
+      padding: value,
     }),
     px: (value: Stitches.PropertyValue<'paddingLeft'>) => ({
       paddingLeft: value,
-      paddingRight: value
+      paddingRight: value,
     }),
     py: (value: Stitches.PropertyValue<'paddingTop'>) => ({
       paddingTop: value,
-      paddingBottom: value
-    })
-  }
-});
+      paddingBottom: value,
+    }),
+  },
+})
 
-export type CSS = Stitches.CSS<typeof config>;
+export type CSS = Stitches.CSS<typeof config>
 
 export const darkTheme = createTheme('dark-theme', {
   colors: {
@@ -194,7 +194,7 @@ export const darkTheme = createTheme('dark-theme', {
     // defaults
     black: '#FFFFFF',
     clear: 'transparent',
-    white: '#000000'
+    white: '#000000',
   },
-  utils: {}
-});
+  utils: {},
+})

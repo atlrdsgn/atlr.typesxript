@@ -1,4 +1,4 @@
-import { styled } from 'theme';
+import {styled} from 'theme'
 
 const SpaceStyles = styled('div', {
   all: 'unset',
@@ -13,25 +13,25 @@ const SpaceStyles = styled('div', {
   variants: {
     size: {
       xs: {
-        height: 8 // 8px
+        height: 8, // 8px
       },
       sm: {
-        height: 16 // 16px
+        height: 16, // 16px
       },
       md: {
-        height: 24 // 24px
+        height: 24, // 24px
       },
       lg: {
-        height: 32 // 32px
+        height: 32, // 32px
       },
       xl: {
-        height: 40 // 40px
-      }
-    }
+        height: 40, // 40px
+      },
+    },
   },
   defaultVariants: {
-    size: 'sm'
-  }
-});
+    size: 'sm',
+  },
+})
 
-export const Space = SpaceStyles;
+export const Space = SpaceStyles

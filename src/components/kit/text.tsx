@@ -1,4 +1,4 @@
-import { styled, theme } from 'theme';
+import {styled, theme} from 'theme'
 
 export const Text = styled('span', {
   zIndex: 'inherit',
@@ -11,82 +11,82 @@ export const Text = styled('span', {
   variants: {
     size: {
       '1': {
-        fontSize: theme.fontSizes[1]
+        fontSize: theme.fontSizes[1],
       },
       '2': {
-        fontSize: theme.fontSizes[2]
+        fontSize: theme.fontSizes[2],
       },
       '3': {
-        fontSize: theme.fontSizes[3]
+        fontSize: theme.fontSizes[3],
       },
       '4': {
-        fontSize: theme.fontSizes[4]
+        fontSize: theme.fontSizes[4],
       },
       '5': {
         fontSize: theme.fontSizes[5],
-        letterSpacing: '-.015em'
+        letterSpacing: '-.015em',
       },
       '6': {
         fontSize: theme.fontSizes[6],
-        letterSpacing: '-.016em'
+        letterSpacing: '-.016em',
       },
       '7': {
         fontSize: theme.fontSizes[7],
         letterSpacing: '-.031em',
-        textIndent: '-.005em'
+        textIndent: '-.005em',
       },
       '8': {
         fontSize: theme.fontSizes[8],
         letterSpacing: '-.034em',
-        textIndent: '-.018em'
+        textIndent: '-.018em',
       },
       '9': {
         fontSize: theme.fontSizes[9],
         letterSpacing: '-.055em',
-        textIndent: '-.025em'
+        textIndent: '-.025em',
       },
       '10': {
         fontSize: theme.fontSizes[10],
         letterSpacing: '-.055em',
-        textIndent: '-.025em'
-      }
+        textIndent: '-.025em',
+      },
     },
     color: {
       highContrast: {
-        color: theme.colors.slate1
+        color: theme.colors.slate1,
       },
       mauve: {
-        color: theme.colors.mauve5
+        color: theme.colors.mauve5,
       },
       gray: {
-        color: theme.colors.gray9
-      }
+        color: theme.colors.gray9,
+      },
     },
     align: {
       left: {
         textAlign: 'left',
-        justifyContent: 'flex-start'
+        justifyContent: 'flex-start',
       },
       center: {
         textAlign: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
       },
       right: {
         textAlign: 'right',
-        justifyContent: 'flex-end'
-      }
+        justifyContent: 'flex-end',
+      },
     },
     gradient: {
       true: {
         WebkitBackgroundClip: 'text',
-        WebkitTextFillColor: 'transparent'
-      }
-    }
+        WebkitTextFillColor: 'transparent',
+      },
+    },
   },
   defaultVariants: {
     size: '3',
     color: 'gray',
     gradient: false,
-    align: 'center'
-  }
-});
+    align: 'center',
+  },
+})

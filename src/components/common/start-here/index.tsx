@@ -1,15 +1,15 @@
-import { styled, theme } from 'theme';
+import {styled, theme} from 'theme'
 
-import { Box, Canvas, Container, PassLink, Space, Text } from '@/components/kit';
+import {Box, Canvas, Container, PassLink, Space, Text} from '@/components/kit'
 
-const repo = 'https://github.com/chvndler/typesxript';
+const repo = 'https://github.com/chvndler/typesxript'
 
 export const StarterCode = () => {
   return (
-    <Box css={{ width: '100%', height: '100vh', backgroundColor: '$mauveA8' }}>
-      <Canvas css={{ paddingTop: 20, paddingBottom: 20 }}>
-        <Container size={'0'} css={{ display: 'block' }}>
-          <Text align={'center'} size={'4'} color={'highContrast'} css={{ fontWeight: 'bold', paddingBottom: 6 }}>
+    <Box css={{width: '100%', height: '100vh', backgroundColor: '$mauveA8'}}>
+      <Canvas css={{paddingTop: 20, paddingBottom: 20}}>
+        <Container size={'0'} css={{display: 'block'}}>
+          <Text align={'center'} size={'4'} color={'highContrast'} css={{fontWeight: 'bold', paddingBottom: 6}}>
             Thank you for using this code.
           </Text>
           <Text align={'center'} size={'2'} color={'highContrast'} css={{}}>
@@ -34,8 +34,8 @@ export const StarterCode = () => {
         </Container>
       </Canvas>
     </Box>
-  );
-};
+  )
+}
 
 const CodeInstructions = styled('span', {
   fontFamily: theme.fonts.mono,
@@ -45,5 +45,5 @@ const CodeInstructions = styled('span', {
   color: theme.colors.white,
   backgroundColor: theme.colors.mauveA10,
   borderRadius: 10,
-  padding: '8px 12px'
-});
+  padding: '8px 12px',
+})

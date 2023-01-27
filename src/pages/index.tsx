@@ -1,13 +1,13 @@
-import { useRouter } from 'next/router';
-import { useEffect } from 'react';
+import {useRouter} from 'next/router'
+import {useEffect} from 'react'
 
 const Index = () => {
-  const router = useRouter();
+  const router = useRouter()
   useEffect(() => {
-    router.replace('/intro');
-  });
+    router.replace('/intro')
+  })
 
-  return;
-};
+  return
+}
 
-export default Index;
+export default Index

@@ -1,10 +1,10 @@
-import type React from 'react';
+import type React from 'react'
 
-import type { IcxnProps } from './types';
+import type {IcxnProps} from './types'
 
-export type IcxnVariant = 'test' | 'vhs-close' | 'menu';
+export type IcxnVariant = 'test' | 'vhs-close' | 'menu'
 
-export const Icxn = ({ variant, ...props }: IcxnProps) => {
+export const Icxn = ({variant, ...props}: IcxnProps) => {
   if (variant === 'test') {
     return (
       <>
@@ -14,8 +14,7 @@ export const Icxn = ({ variant, ...props }: IcxnProps) => {
           fill="currentColor"
           width="24"
           height="24"
-          viewBox="0 0 24 24"
-        >
+          viewBox="0 0 24 24">
           <path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -23,8 +22,8 @@ export const Icxn = ({ variant, ...props }: IcxnProps) => {
           />
         </svg>
       </>
-    );
+    )
   }
 
-  return null;
-};
+  return null
+}
