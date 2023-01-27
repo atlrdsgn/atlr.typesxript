@@ -1,8 +1,8 @@
 import NextHead from 'next/head';
 import * as React from 'react';
 
-import { useMedia } from '~/hooks/use-media';
-import { defaultMeta, isClient } from '~/lib/constants';
+import { useMedia } from '@/hooks/use-media';
+import { defaultMeta, isClient } from '@/lib/constants';
 
 type BasicMeta = {
   title?: string;

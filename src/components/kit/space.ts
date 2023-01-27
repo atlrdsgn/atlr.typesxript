@@ -1,4 +1,4 @@
-import { styled } from 'atlr.config';
+import { styled } from 'theme';
 
 const SpaceStyles = styled('div', {
   all: 'unset',

@@ -1,4 +1,4 @@
-import { css, styled } from 'atlr.config';
+import { css, styled } from 'theme';
 const ContainerStyles = css({
   boxSizing: 'border-box',
   flexShrink: 0,

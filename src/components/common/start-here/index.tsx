@@ -1,4 +1,4 @@
-import { styled, theme } from 'atlr.config';
+import { styled, theme } from 'theme';
 
 import { Box, Canvas, Container, PassLink, Space, Text } from '@/components/kit';
 

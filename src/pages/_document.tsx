@@ -1,5 +1,5 @@
-import { getCssText, reset } from 'atlr.config';
 import Document, { DocumentContext, Head, Html, Main, NextScript } from 'next/document';
+import { getCssText, reset } from 'theme';
 
 const getCssAndReset = () => {
   const css = getCssText();
