@@ -3,13 +3,13 @@
 # Please see the documentation for all configuration options:
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
+# Logs
+# The property '#/updates/0/package-ecosystem' value "yarn" did not match one of the following values: 
+# npm, bundler, composer, maven, mix, cargo, gradle, nuget, gomod, docker, elm, gitsubmodule, github-actions, pip, terraform, pub
+
+
 version: 2
 updates:
-  - package-ecosystem: "yarn" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
-      interval: "weekly"
-      
     # Maintain dependencies for npm
   - package-ecosystem: "npm"
     directory: "/"
