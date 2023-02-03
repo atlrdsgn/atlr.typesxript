@@ -1,19 +1,19 @@
-const withBundleAnalyzer = require('@next/bundle-analyzer')
+const withBundleAnalyzer = require("@next/bundle-analyzer");
 
 /**
  * @type {import('next').NextConfig}
  */
 const config = {
-  reactStrictMode: false,
+  reactStrictMode: true,
   swcMinify: true,
   images: {
-    formats: ['image/avif', 'image/webp'],
+    formats: ["image/avif", "image/webp"],
   },
   transpilePackages: [],
   experimental: {},
-}
+};
 
-module.exports = (_phase, {defaultConfig: _}) => {
-  const plugins = [withBundleAnalyzer({enabled: process.env.ANALYZE === 'true'})]
-  return plugins.reduce((acc, plugin) => plugin(acc), {...config})
-}
+module.exports = (_phase, { defaultConfig: _ }) => {
+  const plugins = [withBundleAnalyzer({ enabled: process.env.ANALYZE === "true" })];
+  return plugins.reduce((acc, plugin) => plugin(acc), { ...config });
+};
