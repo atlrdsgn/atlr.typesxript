@@ -42,7 +42,7 @@
         "@types/react": "^18.0.17",
         "@types/react-dom": "^18.0.6",
         "@typescript-eslint/eslint-plugin": "^4.33.0",
-        "@typescript-eslint/parser": "^4.33.0",
+        "@typescript-eslint/parser": "^5.50.0",
         "babel-plugin-optimize-clsx": "^2.6.2",
         "clsx": "^1.2.1",
         "cross-env": "^7.0.3",
