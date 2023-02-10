@@ -51,6 +51,17 @@ export const Text = styled('span', {
         textIndent: '-.025em',
       },
     },
+    weight: {
+      normal: {
+        fontWeight: 400,
+      },
+      bold: {
+        fontWeight: 700,
+      },
+      heavy: {
+        fontWeight: 900,
+      },
+    },
     color: {
       highContrast: {
         color: theme.colors.slate1,
@@ -85,6 +96,7 @@ export const Text = styled('span', {
   },
   defaultVariants: {
     size: '3',
+    weight: 'normal',
     color: 'gray',
     gradient: false,
     align: 'center',

@@ -6,31 +6,39 @@ const repo = 'https://github.com/chvndler/typesxript'
 
 export const StarterCode = () => {
   return (
-    <Box css={{width: '100%', height: '100vh', backgroundColor: '$mauveA8'}}>
+    <Box css={{width: '100%', height: '100vh', backgroundColor: '$gray1'}}>
       <Canvas css={{paddingTop: 20, paddingBottom: 20}}>
         <Container size={'0'} css={{display: 'block'}}>
-          <Text align={'center'} size={'4'} color={'highContrast'} css={{fontWeight: 'bold', paddingBottom: 6}}>
+          <Text align={'center'} size={'4'} css={{fontWeight: 'bold', paddingBottom: 6}}>
             Thank you for using this code.
           </Text>
-          <Text align={'center'} size={'2'} color={'highContrast'} css={{}}>
-            be sure to star this <PassLink href={repo}>repository</PassLink>.
+          <Text align={'center'} size={'2'} weight={'normal'} css={{}}>
+            Be sure to star this{' '}
+            <PassLink href={repo}>
+              <strong>repository</strong>
+            </PassLink>
+            .
           </Text>
         </Container>
 
         <Space size={'md'} />
 
-        <Container size={'2'}>
+        <Container size={'0'}>
           <CodeInstructions css={{}}>
-            <code>(1)</code> _ To get started, edit <code>src/App.tsx</code> and save to reload.
+            To get started, edit <code>src/App.tsx</code> and save to reload.
           </CodeInstructions>
         </Container>
 
         <Space size={'md'} />
 
-        <Container size={'1'}>
-          <CodeInstructions css={{}}>
-            Be sure to check out .env.example if you receive an error while starting up.
-          </CodeInstructions>
+        <Container size={'0'}>
+          <CodeInstructions css={{}}>Be sure to check out .env.example</CodeInstructions>
+        </Container>
+
+        <Space size={'md'} />
+
+        <Container size={'0'}>
+          <CodeInstructions css={{}}>If you receive an error while starting up.</CodeInstructions>
         </Container>
       </Canvas>
     </Box>
@@ -45,5 +53,7 @@ const CodeInstructions = styled('span', {
   color: theme.colors.white,
   backgroundColor: theme.colors.mauveA10,
   borderRadius: 10,
-  padding: '8px 12px',
+  padding: '8px 20px',
+
+  width: '100%',
 })

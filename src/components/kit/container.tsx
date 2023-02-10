@@ -36,10 +36,31 @@ const ContainerStyles = css({
         alignItems: 'center',
       },
     },
+
+    asHeader: {
+      true: {
+        width: '100%',
+        position: 'absolute',
+        top: 0,
+        zIndex: 999,
+        paddingTop: 30,
+      },
+    },
+    asFooter: {
+      true: {
+        width: '100%',
+        position: 'absolute',
+        bottom: 0,
+        zIndex: 999,
+        paddingBottom: 60,
+      },
+    },
   },
   defaultVariants: {
     size: '4',
     centered: true,
+    asHeader: false,
+    asFooter: false,
   },
 })
 
