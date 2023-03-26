@@ -1,0 +1,8 @@
+.next
+entries
+node_modules
+package.json
+package-lock.json
+
+yarn.lock
+.yarn/*

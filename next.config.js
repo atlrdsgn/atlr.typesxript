@@ -1,19 +1,12 @@
-const withBundleAnalyzer = require("@next/bundle-analyzer");
+/** @format */
 
-/**
- * @type {import('next').NextConfig}
- */
-const config = {
+const { createVanillaExtractPlugin } = require('@vanilla-extract/next-plugin')
+const withVanillaExtract = createVanillaExtractPlugin()
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
-  images: {
-    formats: ["image/avif", "image/webp"],
-  },
-  transpilePackages: [],
-  experimental: {},
-};
+  transpilePackages: ['@atlr/react.kit'],
+}
 
-module.exports = (_phase, { defaultConfig: _ }) => {
-  const plugins = [withBundleAnalyzer({ enabled: process.env.ANALYZE === "true" })];
-  return plugins.reduce((acc, plugin) => plugin(acc), { ...config });
-};
+module.exports = withVanillaExtract(nextConfig)

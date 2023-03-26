@@ -1,25 +1,18 @@
-import Document, {DocumentContext, Head, Html, Main, NextScript} from 'next/document'
-import {getCssText, reset} from 'theme'
+/** @format */
 
-const getCssAndReset = () => {
-  const css = getCssText()
-  reset()
-  return css
-}
+import Document, { DocumentContext, Head, Html, Main, NextScript } from 'next/document'
 
-class MyDocument extends Document {
+class AppDoc extends Document {
   static async getInitialProps(ctx: DocumentContext) {
     const initialProps = await Document.getInitialProps(ctx)
-    return {...initialProps}
+    return { ...initialProps }
   }
 
-  render() {
+  render(): JSX.Element {
     return (
-      <Html lang="en">
-        <Head>
-          <style id="stitches" dangerouslySetInnerHTML={{__html: getCssAndReset()}} />
-        </Head>
-        <body style={{opacity: 0}}>
+      <Html lang={'en'}>
+        <Head />
+        <body style={{ opacity: '0' }}>
           <Main />
           <NextScript />
         </body>
@@ -28,4 +21,4 @@ class MyDocument extends Document {
   }
 }
 
-export default MyDocument
+export default AppDoc

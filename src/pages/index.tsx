@@ -1,13 +1,18 @@
-import {useRouter} from 'next/router'
-import {useEffect} from 'react'
+/** @format */
 
-const Index = () => {
-  const router = useRouter()
-  useEffect(() => {
-    router.replace('/intro')
-  })
+import * as React from 'react'
+import { PageLayout } from '@/components/Page'
+import { Introduction } from '@/components/sections'
+import { Canvas } from '@atlr/react.kit'
 
-  return
-}
+const AppIndex = () => (
+  <>
+    <PageLayout type={'Prod'}>
+      <Canvas>
+        <Introduction />
+      </Canvas>
+    </PageLayout>
+  </>
+)
 
-export default Index
+export default AppIndex

@@ -1,34 +1,38 @@
-import '@/css/global.scss'
+/** @format */
 
-import type {NextComponentType, NextPageContext} from 'next'
-import type {AppProps} from 'next/app'
-import {ThemeProvider} from 'next-themes'
-import * as React from 'react'
-import {darkTheme} from 'theme'
+import '@/scss/index.scss'
+import '@atlr/react.kit/styles'
 
-import {useFontsLoaded} from '@/hooks/use-fonts-loaded'
-import {useKeydown} from '@/hooks/use-keydown'
+import React from 'react'
+import { KitProvider } from '@atlr/react.kit'
 
-export type Page<P = Record<string, unknown>> = NextComponentType<NextPageContext, Record<string, unknown>, P> & {
-  getLayout?: GetLayoutFn<P>
-}
+import type { AppProps } from 'next/app'
+import type { GetLayoutFn } from '@/ts/page'
+import { useFontsLoaded } from '@/components/hooks/use-fonts-loaded'
 
-export type GetLayoutFn<P = Record<string, unknown>> = (
-  props: Omit<AppProps<P>, 'pageProps'> & {pageProps: P}
-) => React.ReactNode
+/*
+ * Copyright (C) 2023 @chvndler
+ * All Rights Reserved.
+ *
+ * You may use, distribute and modify this code under the
+ * terms of the MIT license. You should have received a
+ * copy of the MIT license with this repository.
+ *
+ * See https://github.com/chvndler/chvndler.ch/LICENSE for more information.
+ */
 
-const App = ({Component, pageProps, ...rest}: AppProps) => {
+const AppContext = React.createContext<{ fontsLoaded: boolean }>({ fontsLoaded: false })
+export const useAppContext = () => React.useContext(AppContext)
+
+const App = ({ Component, pageProps, ...rest }: AppProps) => {
   useFontsLoaded()
-  useKeydown()
 
   const getLayout: GetLayoutFn =
-    (Component as any).getLayout || (({Component, pageProps}) => <Component {...pageProps} />)
+    (Component as any).getLayout || (({ Component, pageProps }) => <Component {...pageProps} />)
 
   return (
     <>
-      <ThemeProvider value={{light: 'light-theme', dark: darkTheme.className}}>
-        {getLayout({Component, pageProps, ...rest})}
-      </ThemeProvider>
+      <KitProvider>{getLayout({ Component, pageProps, ...rest })}</KitProvider>
     </>
   )
 }
