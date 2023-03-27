@@ -1,3 +1,3 @@
 /** @format */
 
-export { theme } from './theme.css'
+export {theme} from './theme.css'

@@ -1,6 +1,7 @@
 /** @format */
 
 :root {
+  --progress-bar-rgb: 202, 96, 255;
   --max-width: 600px;
   --font-article: 'Atkinson Hyperlegible Regular';
   --font-inter: 'Inter', 'system-ui', sans-serif;
@@ -25,6 +26,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --progress-bar-rgb: 202, 96, 255;
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 7, 7, 7;
     --background-end-rgb: 2, 2, 2;
@@ -35,20 +37,6 @@
       rgba(1, 65, 255, 0),
       rgba(1, 65, 255, 0.3)
     );
-    // ..
-    --progress-bar-rgb: 202, 96, 255;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: 'Inter var', 'system-ui', sans-serif;
   }
 }
 
@@ -62,6 +50,18 @@
 
 html.fonts-loaded body {
   opacity: 1 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', 'system-ui', sans-serif;
+  }
 }
 
 ::-webkit-scrollbar {
@@ -109,23 +109,16 @@ html {
 
 html,
 body {
-  font-family: var(--font-inter) !important;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
 body {
+  font-family: var(--font-inter);
   transition: opacity #{$duration / 6 + 's'} ease-in;
   color: var(--clsx-casual);
   background: var(--white-dust);
-  /* background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
-    rgb(var(--background-start-rgb));
-  */
-}
-
-body span.aware {
-  color: var(--color-hypergrape4__6lq5zi2j);
-  font-weight: 600 !important;
+  background-color: var(--white-dust);
 }
 
 a {
@@ -139,10 +132,6 @@ a {
 
 article {
   font-family: var(--font-article) !important;
-}
-
-.raw {
-  margin-top: 40px !important;
 }
 
 body.inspect * {

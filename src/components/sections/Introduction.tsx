@@ -1,7 +1,7 @@
 /** @format */
 
 import React from 'react'
-import { Container, Text, Space } from '@atlr/react.kit'
+import {Container, Text, Space} from '@atlr/react.kit'
 
 const atlr = 'https://github.com/atlrdsgn'
 

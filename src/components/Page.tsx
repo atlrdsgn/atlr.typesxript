@@ -1,10 +1,10 @@
 /** @format */
 
 import React from 'react'
-import { AppWrapper } from './AppWrapper'
-import { ArticleFooter, Footer } from './Footer'
+import {AppWrapper} from './AppWrapper'
+import {ArticleFooter, Footer} from './Footer'
 
-import type { PageLayoutProps } from '@/ts/page'
+import type {PageLayoutProps} from '@/ts/page'
 
 export const PageLayout = ({
   // ..

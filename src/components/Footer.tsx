@@ -1,9 +1,10 @@
 /** @format */
-import * as css from '@/kit/footer.css'
 
 import React from 'react'
 import Link from 'next/link'
-import { Space } from '@atlr/react.kit'
+import {Space} from '@atlr/react.kit'
+
+import * as css from '@/kit/footer.css'
 
 const webSource = 'https://github.com/chvndler/chvndler.ch'
 
@@ -11,7 +12,7 @@ export type FooterProps = {
   className?: string
 }
 
-export const Footer = ({ className, ...props }: FooterProps) => (
+export const Footer = ({className, ...props}: FooterProps) => (
   <footer className={css.app_footer} {...props}>
     <span className={css.command_text}>Press ⌘ + K anywhere to view menu.</span>
     <Space size={'large'} />
@@ -28,7 +29,7 @@ export const Footer = ({ className, ...props }: FooterProps) => (
   </footer>
 )
 
-export const ArticleFooter = ({ className, ...props }: FooterProps) => (
+export const ArticleFooter = ({className, ...props}: FooterProps) => (
   <footer className={css.article_footer} {...props}>
     <span>
       © CDC 2023.

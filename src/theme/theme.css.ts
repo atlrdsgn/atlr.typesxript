@@ -1,8 +1,8 @@
 /** @format */
 
-import { createGlobalTheme } from '@vanilla-extract/css'
-import { hypergrape } from './color'
-import { vars } from './vars.css'
+import {createGlobalTheme} from '@vanilla-extract/css'
+import {hypergrape} from './color'
+import {vars} from './vars.css'
 
 createGlobalTheme(':root', vars, {
   font: {

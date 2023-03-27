@@ -1,9 +1,9 @@
 /** @format */
 
-import * as React from 'react'
-import { PageLayout } from '@/components/Page'
-import { Introduction } from '@/components/sections'
-import { Canvas } from '@atlr/react.kit'
+import React from 'react'
+import {PageLayout} from '@/components/Page'
+import {Introduction} from '@/components/sections'
+import {Canvas} from '@atlr/react.kit'
 
 const AppIndex = () => (
   <>
