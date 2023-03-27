@@ -14,7 +14,6 @@ export type FooterProps = {
 
 export const Footer = ({className, ...props}: FooterProps) => (
   <footer className={css.app_footer} {...props}>
-    <span className={css.command_text}>Press ⌘ + K anywhere to view menu.</span>
     <Space size={'large'} />
     <span>
       © CDC 2023.

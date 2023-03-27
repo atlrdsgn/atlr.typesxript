@@ -1,22 +1,24 @@
 /** @format */
 
 import React from 'react'
-import {Container, Text, Space} from '@atlr/react.kit'
+import {Container, Text, Space, Button} from '@atlr/react.kit'
 
-const atlr = 'https://github.com/atlrdsgn'
+const codeSrc = 'https://github.com/atlrdsgn/atlr.typescript'
 
 export const Introduction = () => (
   <>
-    {/* <!-- <Avatar /> --> */}
     <Container width={'small'} align={'center'}>
       <Text size={'xxl'} weight={'bold'} color={'inherit'} align={'center'}>
-        typesxript.
+        atlr.typesxript
       </Text>
       <Space size={'small'} />
       <Text size={'sm'} weight={'normal'} color={'inherit'} align={'center'}>
         Thank you for using this code.
       </Text>
-      <Space size={'2xlarge'} />
+      <Space size={'medium'} />
+      <Button size={'small'} variant={'hypergrape'} href={codeSrc} target={'_blank'}>
+        View on GitHub
+      </Button>
     </Container>
   </>
 )
