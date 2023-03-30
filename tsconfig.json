@@ -23,7 +23,9 @@
       "@/scss/*": ["./src/scss/*"],
       "@/ts/*": ["./src/ts/*"],
       "@/lib/*": ["./lib/*"],
-      "@/theme/*": ["./theme/*"]
+      "@/theme/*": ["./theme/*"],
+
+      "@public/*": ["./public/*"]
     }
   }
 }
