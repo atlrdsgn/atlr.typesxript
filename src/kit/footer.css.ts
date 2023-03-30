@@ -1,6 +1,6 @@
 /** @format */
 
-import { style } from '@vanilla-extract/css'
+import {style} from '@vanilla-extract/css'
 
 export const app_footer = style({
   color: 'rgb(var(--slate-rgb))',
